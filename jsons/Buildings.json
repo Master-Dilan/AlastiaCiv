@@ -1,25 +1,15 @@
 [
-	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
-	},
-	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+    {
+        "name": "Haz de luz",
+        "uniqueTo": "Alastia",
+        "isWonder": "true",
+        "requiredTech": "Agriculture",
+        "cost": 1,
+        "science": 1,
+        "uniques": ["[+1 Culture, +1 Science, +1 Happiness, +1 Faith, +1 Gold, +1 Food, +1 Production] [in all cities]",
+            "Free [Zenai] appears",
+            "Gain a free [Monument] [in this city]",
+            "Automatically built in all cities where it is buildable"],
+        "quote": "El Imperio de Alastia ha comenzado."
+    }
 ]
